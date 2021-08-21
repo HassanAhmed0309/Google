@@ -1,0 +1,119 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    div.head
+    {
+            form
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                input
+                {
+                    display: flex;
+                    align-items: center;
+                    width: 4%;
+                    height: 4%;
+                    padding: 15px;
+                }
+                a
+                {
+                    color: black;
+                    display: flex;
+                    align-items: center;   
+                    margin-right: 15px;  
+                    text-decoration: none;            
+                }
+                a:hover
+                {
+                    text-decoration: underline;
+                }
+            }
+    }
+    p.AS
+    {
+        font-size: 20px;
+        color:crimson;
+        text-decoration: none;
+        margin-left: 36px;
+        padding-top: 10px;
+    }
+    div.Solid_line
+    {
+        border-bottom: 1px solid;
+        color: lightgray;
+    }
+    div.Body
+    {
+        margin-left: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        p
+        {
+            font-size: 16px;
+        }
+        form
+        {
+            input.samebar
+            {
+                border-radius: 1px;
+                border-color: whitesmoke;
+                //display: inline;
+                width: 22%;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 10px;
+                border-style:solid;
+                align-items: left;
+                //background-color: lightsteelblue;
+                //border-top-color: lightgray;
+            }
+            div
+            {
+                margin-bottom: 1%;
+                label.these
+                {
+                    margin-right: 6%;
+                }
+              
+                
+            }
+            div
+            {
+                label.this
+                {
+                    margin-right: 1.9%;
+                }
+            }
+            div
+            {
+                label.any
+                {
+                    margin-right: 3.9%;
+                }
+            }
+            div
+            {
+                label.none
+                {
+                    margin-right: 3.45%;
+                }
+            }
+            div.Advanced
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 27%;
+                input.AButton
+                {
+                    background-color: #4D90FE;
+                    color: white;
+                    font-size: 11px;
+                    font-weight: bold;
+                    padding: 9px ;
+                    border: 1px solid #3079ed;
+                }
+            }
+        }
+    }
+    
+}

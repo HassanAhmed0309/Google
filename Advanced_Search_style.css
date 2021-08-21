@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+body div.head form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body div.head form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 4%;
+  height: 4%;
+  padding: 15px;
+}
+
+body div.head form a {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+body div.head form a:hover {
+  text-decoration: underline;
+}
+
+body p.AS {
+  font-size: 20px;
+  color: crimson;
+  text-decoration: none;
+  margin-left: 36px;
+  padding-top: 10px;
+}
+
+body div.Solid_line {
+  border-bottom: 1px solid;
+  color: lightgray;
+}
+
+body div.Body {
+  margin-left: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body div.Body p {
+  font-size: 16px;
+}
+
+body div.Body form input.samebar {
+  border-radius: 1px;
+  border-color: whitesmoke;
+  width: 22%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  border-style: solid;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+body div.Body form div {
+  margin-bottom: 1%;
+}
+
+body div.Body form div label.these {
+  margin-right: 6%;
+}
+
+body div.Body form div label.this {
+  margin-right: 1.9%;
+}
+
+body div.Body form div label.any {
+  margin-right: 3.9%;
+}
+
+body div.Body form div label.none {
+  margin-right: 3.45%;
+}
+
+body div.Body form div.Advanced {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 27%;
+}
+
+body div.Body form div.Advanced input.AButton {
+  background-color: #4D90FE;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 9px;
+  border: 1px solid #3079ed;
+}
+/*# sourceMappingURL=Advanced_Search_style.css.map */

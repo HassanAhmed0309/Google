@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+body div.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 14px;
+}
+
+body div.header a {
+  color: black;
+  text-decoration: none;
+}
+
+body div.header a:hover {
+  text-decoration: underline;
+}
+
+body div.header a.Gmail {
+  margin-left: 5px;
+}
+
+body div.header a.GImages {
+  padding-left: 8px;
+}
+
+body div.header a.GASearch {
+  padding-left: 8px;
+}
+
+body div.GImage {
+  padding-top: 0px;
+  padding-left: 43%;
+}
+
+body div form {
+  padding-top: 2%;
+  padding-left: 34%;
+}
+
+body div form input.SearchBar {
+  width: 47%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-indent: 12px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  border: 2px ridge whitesmoke;
+  outline: none;
+}
+
+body div form input.SearchBar:hover {
+  border-color: lightgrey;
+}
+
+body div form div.But {
+  padding-top: 2%;
+  padding-left: 10%;
+}
+
+body div form div.But input.button {
+  background-color: white;
+  outline-color: whitesmoke;
+  border: 2px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  margin: 13px 20px;
+  font-size: medium;
+}
+
+body div form div.But input.button:hover {
+  border-color: grey;
+}
+/*# sourceMappingURL=style.css.map */

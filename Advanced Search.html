@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="Advanced_Search_style.css" >
+    </head>
+    <body>
+        <div class="head">
+                <form action="http://127.0.0.1:5500/">
+                    <input type="image" name="q" src="Glogo.png">
+                    <a href="http://127.0.0.1:5500/Images.html" >Images</a>
+                </form>
+        </div>
+        <p class = "AS">Advanced Search</p>
+        <div class = "Solid_line"></div>
+        <br><br><br>
+        <div class = "Body">
+            <p>Find pages with...</p>
+            <form action="https://google.com/search" method = "GET">
+                <div>
+                    <label for="autofocus" class = "these"> 
+                        these words: 
+                    </label>
+                    <input type= "text" value autofocus = "autofocus" class  = "samebar" name="as_q" >
+                </div>
+
+                <div>
+                    <label for="autofocus" class = "this">
+                        this exact word or phrase: 
+                    </label>
+                    <input type= "text" value autofocus = "autofocus" class  = "samebar" name="as_q" >
+                </div>
+
+                <div>
+                    <label for="any" class = "any">
+                        any of these words:
+                    </label>
+                    <input type= "text" value id = "any" class  = "samebar" name="as_oq" >
+                </div>
+                
+                <div>
+                    <label for="none" class = "none">
+                        none of these words:
+                    </label>
+                    <input type= "text" value id ="none" class  = "samebar" name="as_eq" >
+                </div>
+                <div class = "Advanced">
+                    <input class = "AButton" type="submit" value = "Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
